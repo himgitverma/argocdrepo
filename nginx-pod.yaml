@@ -1,0 +1,28 @@
+kind: Pod
+apiVersion: v1
+metadata:
+  name: first-nginx-pod
+spec:
+  containers:
+  - name: nginx
+    image: nginx:latest
+
+---
+kind: Pod
+apiVersion: v1
+metadata:
+  name: second-nginx-pod
+spec:
+  containers:
+  - name: nginx
+    image: nginx:latest
+
+---
+kind: Pod
+apiVersion: v1
+metadata:
+  name: third-nginx-pod
+spec:
+  containers:
+  - name: nginx
+    image: nginx:latest
